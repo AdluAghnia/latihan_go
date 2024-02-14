@@ -40,11 +40,19 @@ func slice()  {
 
 
 }
+
 func access_slice(){
   harga := []int{20,40,30}
 
   fmt.Println(harga[0])
-  fmt.Println(harga[2])
+  fmt.Println(harga[22])
+}
+
+func change_element_slice(){
+  harga := []int{10, 20, 30}
+  harga[1] = 50
+  fmt.Println(harga[1])
+
 }
 func tipe() {
   // Jenis-jenis tipe data sederhana di Go
