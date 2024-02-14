@@ -40,7 +40,12 @@ func slice()  {
 
 
 }
+func access_slice(){
+  harga := []int{20,40,30}
 
+  fmt.Println(harga[0])
+  fmt.Println(harga[2])
+}
 func tipe() {
   // Jenis-jenis tipe data sederhana di Go
   var a bool =  true
