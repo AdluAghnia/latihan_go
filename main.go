@@ -45,13 +45,29 @@ func access_slice(){
   harga := []int{20,40,30}
 
   fmt.Println(harga[0])
-  fmt.Println(harga[22])
+  fmt.Println(harga[2])
 }
 
 func change_element_slice(){
   harga := []int{10, 20, 30}
   harga[1] = 50
   fmt.Println(harga[1])
+
+}
+
+func append_slice(){
+  myslice := []int{1,2,3,4,5,6}
+
+
+  fmt.Printf("myslice =  %v\n", myslice)
+  fmt.Printf("myslice length =  %d\n", len(myslice))
+  fmt.Printf("myslice cappacity =  %v\n", cap(myslice))
+
+  myslice = append(myslice, 20, 21)
+
+  fmt.Printf("myslice =  %v\n", myslice)
+  fmt.Printf("myslice length =  %d\n", len(myslice))
+  fmt.Printf("myslice cappacity =  %v\n", cap(myslice))
 
 }
 func tipe() {
@@ -86,4 +102,13 @@ func main() {
  
   fmt.Println("=====================")
   slice()
+
+  fmt.Println("=====================")
+  access_slice()
+
+  fmt.Println("=====================")
+  change_element_slice()
+
+  fmt.Println("=====================")
+  append_slice()
 }
