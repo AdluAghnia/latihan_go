@@ -7,4 +7,5 @@ import (
 func main() {
   example.AssignmentOperatorsExample()
   example.ArithmeticExample()
+  example.ComparationExample()
 }
