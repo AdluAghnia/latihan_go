@@ -9,4 +9,6 @@ func main() {
   example.ArithmeticExample()
   example.ComparationExample()
   example.LogicalOperationExample()
+  example.IfStatmentExample()
+  example.IfElseExample()
 }
