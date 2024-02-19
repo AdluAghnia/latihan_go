@@ -1,4 +1,4 @@
-package eslice
+package example
 
 import "fmt"
 
