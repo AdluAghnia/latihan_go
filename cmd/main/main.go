@@ -8,4 +8,5 @@ func main() {
   example.AssignmentOperatorsExample()
   example.ArithmeticExample()
   example.ComparationExample()
+  example.LogicalOperationExample()
 }
