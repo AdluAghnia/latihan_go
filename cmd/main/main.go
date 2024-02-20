@@ -5,10 +5,8 @@ import (
 )
 
 func main() {
-  example.AssignmentOperatorsExample()
-  example.ArithmeticExample()
-  example.ComparationExample()
-  example.LogicalOperationExample()
   example.IfStatmentExample()
   example.IfElseExample()
+  example.ElseIfExample()
+  example.NestedIfExample()
 }
