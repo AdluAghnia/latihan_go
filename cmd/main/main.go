@@ -5,8 +5,5 @@ import (
 )
 
 func main() {
-  example.ForLoopBreak()
-  example.Forloop()
-  example.NestedLoop()
-  example.RangeLoop()
+  example.FunctionExample()
 }
