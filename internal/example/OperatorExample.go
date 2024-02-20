@@ -86,3 +86,23 @@ func ComparationExample()  {
   value = 5 >= 5
   fmt.Printf("5 >= 5 : %v \n", value)
 }
+
+func LogicalOperationExample()  {
+  // Logical And
+  x := 4
+  val := x < 5 &&  x < 10
+  fmt.Printf("x = %d\n", x)
+  fmt.Printf(" x < 5 &&  x < 10 = %v\n", val)
+  // Logical Or
+  x = 4
+  val = x < 5 ||  x < 10
+  fmt.Printf("x = %d\n", x)
+  fmt.Printf(" x < 5 ||  x < 10 = %v\n", val)
+  
+  // Logical Not
+  x = 4
+  val = !(x < 5 && x < 10)
+  fmt.Printf("x = %d\n", x)
+  fmt.Printf(" !(x < 5 && x < 10) = %v\n ", val)
+
+}
