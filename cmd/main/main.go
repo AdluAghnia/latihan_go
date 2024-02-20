@@ -5,8 +5,8 @@ import (
 )
 
 func main() {
-  example.IfStatmentExample()
-  example.IfElseExample()
-  example.ElseIfExample()
-  example.NestedIfExample()
+  example.ForLoopBreak()
+  example.Forloop()
+  example.NestedLoop()
+  example.RangeLoop()
 }
