@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-  example.FunctionExample()
+  example.AccessStructMember()
+  example.PassStructAsArguments()
 }
